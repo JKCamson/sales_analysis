@@ -38,6 +38,7 @@ header h1 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  display: inline-block;
 }
 
 .status-dot.online {
@@ -99,12 +100,12 @@ main {
   color: #ffffff;
 }
 
-#sales-table {
+.sales-table {
   width: 100%;
   border-collapse: collapse;
 }
 
-#sales-table th {
+.sales-table th {
   text-align: left;
   padding: 10px 12px;
   font-size: 12px;
@@ -114,13 +115,13 @@ main {
   border-bottom: 1px solid #2a2a2a;
 }
 
-#sales-table td {
+.sales-table td {
   padding: 12px;
   font-size: 14px;
   border-bottom: 1px solid #1f1f1f;
 }
 
-#sales-table tbody tr:hover {
+.sales-table tbody tr:hover {
   background: #222;
 }
 
